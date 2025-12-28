@@ -12,7 +12,7 @@ const port = process.env.PORT || 5000;
 // middleware
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://happy-new-year-2026-azure.vercel.app/"],
+    origin: ["http://localhost:5173", "https://happy-new-year-2026-by-shariful.vercel.app"],
     credentials: true,
   })
 );
